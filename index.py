@@ -11,6 +11,12 @@ def add(x, y):
     return x + y
 
 
-def word(name):
-    return f"hello {name}"
+def upperString(name):
+    return name.upper()
+
+def checkUpper(name):
+    return name.isupper()
+
+ 
+ 
  

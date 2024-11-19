@@ -1,0 +1,8 @@
+
+
+cmake_minimum_required(VERSION 3.12)     # Required
+project(unit-testing)                  # Required
+add_subdirectory(googletest)             # google
+test subdirectoryinclude_directories(googletest/include) add_executable(medium medium.cpp)   # Required
+target_link_libraries(medium PRIVATE gtest)    # Required 
+for googletest

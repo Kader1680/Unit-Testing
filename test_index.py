@@ -21,5 +21,16 @@ class test_addFuntion(unittest.TestCase):
         self.assertEqual(result2, 1)
         
 
+class test_word(unittest.TestCase):
+    
+    def test_upper_string(self):
+        result = index.upperString("abdelakder")
+        self.assertTrue(result, "ABDELAKDER")
+    
+    def test_isupper(self):
+        result = index.checkUpper("abdelakder")
+        self.assertTrue(result, "ABDELAKDER")
+    
+
 if __name__ == '__main__':
     unittest.main()
